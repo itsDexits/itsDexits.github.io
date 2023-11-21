@@ -27,28 +27,902 @@
   text-decoration: none;
 }
 .email-pass-filter-container1 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
   display: flex;
-  align-items: space-between;
-  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
-.email-pass-filter-site-pages {
-  align-self: center;
+.email-pass-filter-thq-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-text {
+  color: var(--dl-color-gray-white);
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.email-pass-filter-dropdown-arrow {
+  transition: 0.3s;
+}
+.email-pass-filter-icon {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.CombosIcon1 {
+  width: 25px;
+  height: 25px;
+}
+.ProxyIcon1 {
+  width: 23px;
+  height: 23px;
+}
+.FiltersIcon1 {
+  width: 25px;
+  height: 25px;
+}
+.UnavilableIcon1 {
+  width: 25px;
+  height: 25px;
+}
+.PremiumIcon1 {
+  width: 25px;
+  height: 25px;
+}
+.email-pass-filter-dropdown-list {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.email-pass-filter-dropdown {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle01 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle01:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
 }
 .email-pass-filter-text01 {
-  margin-left: var(--dl-space-space-twounits);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown01 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle02 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle02:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
 }
 .email-pass-filter-text02 {
-  margin-left: var(--dl-space-space-twounits);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
 }
-.email-pass-filter-navlink1 {
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
+.email-pass-filter-dropdown02 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle03 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle03:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
 }
 .email-pass-filter-text03 {
-  margin-left: var(--dl-space-space-twounits);
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-thq-dropdown1 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle04 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-text04 {
+  color: var(--dl-color-gray-white);
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.email-pass-filter-dropdown-arrow1 {
+  transition: 0.3s;
+}
+.email-pass-filter-icon02 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.email-pass-filter-dropdown-list1 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.email-pass-filter-dropdown03 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle05 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle05:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text05 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown04 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle06 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle06:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text06 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown05 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle07 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle07:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text07 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-thq-dropdown2 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle08 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-text08 {
+  color: var(--dl-color-gray-white);
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.email-pass-filter-dropdown-arrow2 {
+  transition: 0.3s;
+}
+.email-pass-filter-icon04 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.email-pass-filter-dropdown-list2 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.email-pass-filter-dropdown06 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle09 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle09:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-navlink1 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  text-decoration: none;
+}
+.email-pass-filter-dropdown07 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle10 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle10:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text09 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown08 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle11 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle11:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text10 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-thq-dropdown3 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle12 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-text11 {
+  color: var(--dl-color-gray-white);
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.email-pass-filter-dropdown-arrow3 {
+  transition: 0.3s;
+}
+.email-pass-filter-icon06 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.email-pass-filter-dropdown-list3 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.email-pass-filter-dropdown09 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle13 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle13:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text12 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown10 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle14 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle14:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text13 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown11 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle15 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle15:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text14 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-thq-dropdown4 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle16 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius2);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-text15 {
+  color: var(--dl-color-gray-white);
+  font-size: 14px;
+  font-style: normal;
+  text-align: center;
+  font-weight: 500;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+.email-pass-filter-dropdown-arrow4 {
+  transition: 0.3s;
+}
+.email-pass-filter-icon08 {
+  width: 18px;
+  height: 18px;
+  transition: 0.3s;
+}
+.PremiumIcon1 {
+  width: 25px;
+  height: 25px;
+}
+.email-pass-filter-dropdown-list4 {
+  left: 0%;
+  width: max-content;
+  display: none;
+  z-index: 100;
+  position: absolute;
+  min-width: 100%;
+  transition: 0.3s;
+  align-items: stretch;
+  border-color: #D9D9D9;
+  border-width: 1px;
+  border-radius: var(--dl-radius-radius-radius4);
+  flex-direction: column;
+  list-style-type: none;
+  background-color: var(--dl-color-gray-white);
+  list-style-position: inside;
+}
+.email-pass-filter-dropdown12 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle17 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle17:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text16 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown13 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle18 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle18:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text17 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown14 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle19 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle19:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text18 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown15 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle20 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle20:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text19 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown16 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle21 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle21:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text20 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown17 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle22 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle22:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text21 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.email-pass-filter-dropdown18 {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  border-radius: var(--dl-radius-radius-radius2);
+}
+.email-pass-filter-dropdown-toggle23 {
+  fill: #595959;
+  color: #595959;
+  width: 100%;
+  display: inline-flex;
+  transition: 0.3s;
+  align-items: center;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.email-pass-filter-dropdown-toggle23:hover {
+  fill: #fff;
+  color: #fff;
+  background-color: #595959;
+}
+.email-pass-filter-text22 {
+  width: 100%;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
 }
 .email-pass-filter-container2 {
   flex: 0 0 auto;
@@ -59,15 +933,6 @@
   flex-direction: column;
 }
 .email-pass-filter-container3 {
-  flex: 0 0 auto;
-  width: auto;
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  height: auto;
-  display: flex;
-  align-items: space-between;
-  flex-direction: column;
-}
-.email-pass-filter-container4 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -81,6 +946,9 @@
   position: relative;
   justify-content: space-between;
 }
+.email-pass-filter-link {
+  text-decoration: none;
+}
 .email-pass-filter-login-register {
   display: flex;
 }
@@ -91,7 +959,7 @@
 .email-pass-filter-burger-menu {
   display: none;
 }
-.email-pass-filter-icon {
+.email-pass-filter-icon10 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -128,7 +996,7 @@
   align-items: center;
   justify-content: center;
 }
-.email-pass-filter-icon2 {
+.email-pass-filter-icon12 {
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
@@ -139,19 +1007,19 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.email-pass-filter-text04 {
+.email-pass-filter-text23 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.email-pass-filter-text05 {
+.email-pass-filter-text24 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.email-pass-filter-text06 {
+.email-pass-filter-text25 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.email-pass-filter-text07 {
+.email-pass-filter-text26 {
   margin-bottom: var(--dl-space-space-unit);
 }
-.email-pass-filter-text08 {
+.email-pass-filter-text27 {
   margin-bottom: var(--dl-space-space-unit);
 }
 .email-pass-filter-buttons {
@@ -190,7 +1058,7 @@
   left: 692px;
   position: absolute;
 }
-.email-pass-filter-text09 {
+.email-pass-filter-text28 {
   top: 120px;
   color: #ffffff;
   opacity: 0.5;
@@ -199,7 +1067,7 @@
   font-family: "Arial Black";
   text-transform: uppercase;
 }
-.email-pass-filter-link {
+.email-pass-filter-link1 {
   display: contents;
 }
 .email-pass-filter-telegram-logo {
@@ -210,7 +1078,7 @@
   object-fit: cover;
   text-decoration: none;
 }
-.email-pass-filter-link1 {
+.email-pass-filter-link2 {
   display: contents;
 }
 .email-pass-filter-discord-logo {
@@ -225,8 +1093,128 @@
   .email-pass-filter-navbar-interactive {
     padding-top: 13px;
   }
-  .email-pass-filter-container3 {
-    position: relative;
+  .email-pass-filter-text {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text01 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text02 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text03 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text04 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+  }
+  .email-pass-filter-text05 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text06 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text07 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-dropdown-toggle08 {
+    width: 94px;
+    height: 27px;
+  }
+  .email-pass-filter-text08 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-navlink1 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text09 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text10 {
+    font-size: 14px;
+  }
+  .email-pass-filter-dropdown-toggle12 {
+    width: 126px;
+    height: 35px;
+  }
+  .email-pass-filter-text11 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: inherit;
+  }
+  .email-pass-filter-text12 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text13 {
+    font-size: 14px;
+  }
+  .email-pass-filter-text14 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text15 {
+    color: var(--dl-color-gray-white);
+    font-size: 14px;
+  }
+  .email-pass-filter-text16 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text17 {
+    font-size: 14px;
+  }
+  .email-pass-filter-text18 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text19 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text20 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-text21 {
+    font-size: 14px;
+  }
+  .email-pass-filter-text22 {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+  }
+  .email-pass-filter-link {
+    color: #6def77;
   }
   .email-pass-filter-login-register {
     top: auto;
@@ -241,7 +1229,7 @@
     top: 261px;
     left: 660px;
   }
-  .email-pass-filter-text09 {
+  .email-pass-filter-text28 {
     top: 130px;
     left: 395px;
     border-color: var(--dl-color-gray-black);
@@ -260,22 +1248,22 @@
     align-items: center;
     justify-content: center;
   }
-  .email-pass-filter-text04 {
+  .email-pass-filter-text23 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .email-pass-filter-text05 {
+  .email-pass-filter-text24 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .email-pass-filter-text06 {
+  .email-pass-filter-text25 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .email-pass-filter-text07 {
+  .email-pass-filter-text26 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .email-pass-filter-text08 {
+  .email-pass-filter-text27 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
